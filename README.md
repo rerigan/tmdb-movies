@@ -1,8 +1,7 @@
 <p align="center">
 <a href"https://rerigan.github.io/tmdb-movies/"><img src="./movies.png"></a>
-
 </p>
-<h2 align="center">TMDB Movies</h2>
+<h2 align="center"><a href="https://rerigan.github.io/tmdb-movies/">TMDB Movies</h2></a>
 
 <p align="center">
 Esse site é um catálogo de filmes feito com a API do TMDB, mostrando os filmes mais populares do momento com uma função de busca.<br/>Feito com React @Vite. Me proporcionou melhor conhecimento sobre consumo de APIs em React, além da utilidade dos componentes, além de ter sido meu primeiro contato com localstorage.
