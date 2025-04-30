@@ -1,5 +1,5 @@
 <p align="center">
-<a href"https://rerigan.github.io/React-TMDB-Movies/"><img src="./movies.png"></a>
+<a href"https://rerigan.github.io/tmdb-movies/"><img src="./movies.png"></a>
 
 </p>
 <h2 align="center">TMDB Movies</h2>
