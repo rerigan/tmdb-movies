@@ -21,6 +21,7 @@
   color: white;
   font-size: 1rem;
   max-width: 60%;
+  margin: 0 auto;
 }
 
 .search-input:focus {
