@@ -5,8 +5,8 @@ import App from "./App.jsx";
 import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename="/tmdb-movies" sensitive={false}>
+    <HashRouter basename="/tmdb-movies" sensitive={false}>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>
 );
