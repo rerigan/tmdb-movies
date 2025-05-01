@@ -2,9 +2,9 @@ import "./css/App.css";
 import MovieCard from "./components/MovieCard";
 import Home from "./pages/Home";
 import Favorites from "./pages/Favorites";
-import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import { MovieProvider } from "./contexts/MovieContext";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
