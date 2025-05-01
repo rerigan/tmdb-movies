@@ -1,5 +1,5 @@
 <p align="center">
-<a href"https://rerigan.github.io/tmdb-movies/"><img src="./movies.png"></a>
+<a href"https://rerigan.github.io/tmdb-movies/"><img src="./movies2.png"></a>
 </p>
 <h2 align="center"><a href="https://rerigan.github.io/tmdb-movies/">TMDB Movies</h2></a>
 
