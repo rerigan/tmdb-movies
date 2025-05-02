@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link to="/">TMDB Movie List</Link>
+        <Link to="/">TMDB Movies</Link>
       </div>
       <div className="navbar-links">
         <Link to="/" className="nav-link">

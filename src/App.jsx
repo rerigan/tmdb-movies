@@ -16,8 +16,13 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/favorites" element={<Favorites />} />
         </Routes>
+       
       </main>
+    
+      <h2><a href='http://rerigan.github.io/'>Desenvolvido por Rerigan</a></h2>
     </MovieProvider>
+
+    
   );
 }
 
