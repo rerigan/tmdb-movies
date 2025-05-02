@@ -3,7 +3,7 @@
 </p>
 <h2 align="center"><a href="https://rerigan.github.io/tmdb-movies/">TMDB Movies</h2></a>
 
-<p align="center">
+<p>
 Esse site é um catálogo de filmes feito com a API do TMDB, mostrando os filmes mais populares do momento com uma função de busca.<br/>Feito com React @Vite. Me proporcionou melhor conhecimento sobre consumo de APIs em React, além da utilidade dos componentes, além de ter sido meu primeiro contato com localstorage.
 </p>
 
@@ -16,6 +16,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - React @Vite - estilização, formatação, integração de HTML, CSS, Javascript
 - JavaScript - consumo de APIs, funções de pesquisa, etc.
 
+## Extra
+A fazer:
+- Criar filtros de gênero
+- Adicionar descrições dos filmes e a nota no IMDB
+- Adicionar sistema de autenticação para salvar a lista de Desejos e de Favoritos
+- Adicionar lista de Desejos
 <br><br><br><br><br><br><br>
 
 <p align="center">
