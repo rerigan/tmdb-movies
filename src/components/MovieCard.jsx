@@ -22,7 +22,7 @@ function MovieCard({ movie }) {
             className={`favorite-btn ${favorite ? "active" : ""}`}
             onClick={onFavClick}
           >
-            ❤︎
+            <ion-icon name="heart-sharp"></ion-icon>
           </button>
         </div>
       </div>

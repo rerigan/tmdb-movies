@@ -10,7 +10,7 @@ function NavBar() {
       <div className="navbar-links">
         
         <Link to="/favorites" className="nav-link" id='favorites-link'>
-        ❤︎
+        <ion-icon name="heart-sharp"></ion-icon>
         </Link>
       </div>
     </nav>
