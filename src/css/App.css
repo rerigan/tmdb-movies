@@ -26,3 +26,10 @@ a {
   color:white;
 
 }
+#footercredit{
+  opacity:0%;
+  animation: loading 2s forwards;
+}
+@keyframes loading {
+  100%{
+opacity: 100%;}}

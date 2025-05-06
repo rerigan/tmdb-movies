@@ -11,12 +11,13 @@
 .loading {
   padding-top:100px;
   text-align:center;
-  animation: loading 2s alternate;
+  animation: loading 2s forwards;
   opacity:0%;
 }
 @keyframes loading {
   100%{
 opacity: 100%;}}
+
 
 .search-input {
   flex: 1;

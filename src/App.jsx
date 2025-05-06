@@ -19,7 +19,7 @@ function App() {
        
       </main>
     
-      <h2><a href='http://rerigan.github.io/'>Desenvolvido por Rerigan</a></h2>
+      <h2><a href='http://rerigan.github.io/' id='footercredit'>Desenvolvido por Rerigan</a></h2>
     </MovieProvider>
 
     
