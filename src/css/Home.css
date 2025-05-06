@@ -6,13 +6,7 @@
 
 .search-form {
   max-width: 800px;
-  
   margin: 0 auto;
-
-
-
-
-
 }
 
 .search-input {
@@ -23,35 +17,32 @@
   background-color: #333;
   color: white;
   font-size: 1rem;
-
-
+  outline:1px solid transparent;
 }
 
 .search-input:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #666;
+  outline:1px solid #e50914;
+
+  background-color:black;
 }
 
 .searchbutton {
-  
   background-color: #e50914;
   color: white;
   border-radius: 4px;
   font-weight: 500;
   transition: background-color 0.2s;
-  position:absolute;
-  right:0;
-
+  position: absolute;
+  right: 0;
+  border:2px solid red;
+  transform:translateY(-1px);
 }
 
-.search-button:hover {
-  background-color: #f40612;
-}
-#barandbutton{
-  position:relative;
-  display:flex;
-  width:500px;
-  margin:0 auto;
+#barandbutton {
+  position: relative;
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 @media (max-width: 639px) {
