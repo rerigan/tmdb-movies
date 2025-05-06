@@ -43,7 +43,9 @@ function Home() {
   return (
     <>
       <div className="home">
+        
         <form onSubmit={handleSearch} className="search-form">
+        <div id='barandbutton'>
           <input
             type="text"
             placeholder="Search for movies..."
@@ -53,8 +55,9 @@ function Home() {
           ></input>
           <button type="submit" className="searchbutton">
             Search
-          </button>
+          </button></div>
         </form>
+        
         {error && <div className="error-message">{error}</div>}
         {loading ? (
           <div className="loading">Loading...</div>

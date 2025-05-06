@@ -1,20 +1,19 @@
 .movie-card {
   position: relative;
-  border-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
-  background-color: #1a1a1a;
   transition: transform 0.2s;
   height: 100%;
   display: flex;
+  background-color:transparent;
 
   flex-direction: column;
-  background-color: transparent;
-  border: 1px solid transparent;
+  border: 1px solid  rgba(255, 255, 255, 0.2);
 }
 
 .movie-card:hover {
   transform: translateY(-5px);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
 .movie-poster {
@@ -56,8 +55,8 @@
   position: absolute;
   top: 1rem;
   right: 1rem;
-  color: white;
-  font-size: 1.5rem;
+  color:#ffffff;
+  font-size: 1.3rem;
   padding: 0.5rem;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
