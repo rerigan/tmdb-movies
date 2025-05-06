@@ -8,6 +8,15 @@
   max-width: 800px;
   margin: 0 auto;
 }
+.loading {
+  padding-top:100px;
+  text-align:center;
+  animation: loading 2s alternate;
+  opacity:0%;
+}
+@keyframes loading {
+  100%{
+opacity: 100%;}}
 
 .search-input {
   flex: 1;
