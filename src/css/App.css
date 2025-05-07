@@ -28,7 +28,7 @@ a {
 }
 #footercredit{
   opacity:0%;
-  animation: loading 2s forwards;
+  animation: loading 5s forwards;
 }
 @keyframes loading {
   100%{

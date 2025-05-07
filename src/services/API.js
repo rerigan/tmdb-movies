@@ -9,35 +9,35 @@ const options = {
 };
 
 export const getPopularShows = async () => {
-    const responsePage1 = await fetch('https://api.themoviedb.org/3/trending/tv/week?language=en-US', options)
-    const responsePage2 = await fetch(`${BASE_URL}/tv/popular?api_key=${API_KEY}&page=2`);
-    const responsePage3 = await fetch(`${BASE_URL}/tv/popular?api_key=${API_KEY}&page=3`);
-    
-  
-    const dataPage1 = await responsePage1.json();
-    const dataPage2 = await responsePage2.json();
-    const dataPage3 = await responsePage3.json();
-  
-    // Combine the results from pages
-    return [...dataPage1.results, ...dataPage2.results, ...dataPage3.results];
-  }
+  const responsePage1 = await fetch('https://api.themoviedb.org/3/trending/tv/week?language=en-US', options)
+  const responsePage2 = await fetch(`${BASE_URL}/tv/popular?api_key=${API_KEY}&page=2`);
+
+
+
+  const dataPage1 = await responsePage1.json();
+  const dataPage2 = await responsePage2.json();
+
+
+  // Combine the results from pages
+  return [...dataPage1.results, ...dataPage2.results];
+}
 export const getPopularMovies = async () => {
-    const responsePage1 = await fetch('https://api.themoviedb.org/3/trending/movie/week?language=en-US', options)
-    const responsePage2 = await fetch(`${BASE_URL}/movie/popular?api_key=${API_KEY}&page=2`);
-    const responsePage3 = await fetch(`${BASE_URL}/movie/popular?api_key=${API_KEY}&page=3`);
-    
-  
-    const dataPage1 = await responsePage1.json();
-    const dataPage2 = await responsePage2.json();
-    const dataPage3 = await responsePage3.json();
-  
-    // Combine the results from pages
-    return [...dataPage1.results, ...dataPage2.results, ...dataPage3.results];
-  };
+  const responsePage1 = await fetch('https://api.themoviedb.org/3/trending/movie/week?language=en-US', options)
+  const responsePage2 = await fetch(`${BASE_URL}/movie/popular?api_key=${API_KEY}&page=2`);
+
+
+
+  const dataPage1 = await responsePage1.json();
+  const dataPage2 = await responsePage2.json();
+
+
+  // Combine the results from pages
+  return [...dataPage1.results, ...dataPage2.results];
+};
 
 
 export const searchMovies = async (query) => {
-    const response = await fetch(`${BASE_URL}/search/movie?api_key=${API_KEY}&query=${encodeURIComponent(query)}`);
-    const data = await response.json()
-    return data.results
+  const response = await fetch(`${BASE_URL}/search/movie?api_key=${API_KEY}&query=${encodeURIComponent(query)}`);
+  const data = await response.json()
+  return data.results
 };

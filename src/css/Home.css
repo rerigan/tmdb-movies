@@ -11,7 +11,7 @@
 .loading {
   padding-top:100px;
   text-align:center;
-  animation: loading 2s forwards;
+  animation: loading 4s forwards;
   opacity:0%;
 }
 @keyframes loading {

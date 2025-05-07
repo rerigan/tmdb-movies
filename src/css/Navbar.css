@@ -13,6 +13,15 @@
   color: white;
   text-decoration: none;
 }
+#genresbutton{
+  position:absolute;
+  left:2rem;
+  top:2rem;
+}
+
+#genresbutton:hover{
+text-shadow:0 0 10px 10px white;
+}
 #site-title {
   color:#e50914;
   font-weight:800;
